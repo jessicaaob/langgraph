@@ -1,0 +1,52 @@
+—————————————————————————————————————————————
+1 - Git + Conda Set-Up
+—————————————————————————————————————————————
+
+Where python
+Python scriptname.py
+
+Conda env list
+Conda activate <environment name>
+Conda deactivate 
+Conda list
+conda create --name youtube_auto python=3.9
+Pip install <package>
+Pip list
+
+
+Git log - -max-count=4
+Git checkout <id>
+Git pull
+Git branch
+Git add .
+Git commit - - m ”<notes>”
+Git push
+Git remote -v
+
+
+Cd ../
+Ls
+Cd foldername
+
+—————————————————————————————————————————————
+2 - Git Remote Repo Connection
+—————————————————————————————————————————————
+
+git clone https...reponame
+git add .
+git commit --m "first commit"
+git push
+
+BUT push auth fails
+
+Go to github > settings > developer settings > create personal access token
+select personal access token settings (just the first repo one is needed)
+copy personal access token
+
+try git push again
+
+prompted to enter git username and password
+jessicaaob and personal access token
+
+push should have worked now
+
